@@ -15,7 +15,7 @@ Zur Hilfestellung des Projektes steht der Dozent zur verfügung:
 
 ## Lizenz
 
-Die Lizenzrechte sind in der Datei LICENSE.txt zu lesen. Sie beinhaltet Informationen zu Nutzungsrecht, Schutz und Übertragbarkeit des Codes von diesem Projekt.
+Die Lizenzrechte sind in der Datei LICENSE.txt zu lesen. Sie beinhaltet Informationen zu Nutzungsrecht, Schutz und Übertragbarkeit des Codes zu diesem Projekt.
 
 ## Sprachregeln
 
