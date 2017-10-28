@@ -13,6 +13,10 @@ Zur Hilfestellung des Projektes steht der Dozent zur verfügung:
 
     Nicolai Parlog
 
+## Lizenz
+
+Die Lizenzrechte sind in der Datei LICENSE.txt zu lesen. Sie beinhaltet Informationen zu Nutzungsrecht, Schutz und Übertragbarkeit des Codes von diesem Projekt.
+
 ## Sprachregeln
 
 Für das Projekt gelten festgelegte Regeln für die Sprache. Dies soll Durcheinander bei der Kommunikation miteinander und dem Code vermeiden.
