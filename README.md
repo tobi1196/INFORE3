@@ -55,7 +55,7 @@ Now that the infrastructure is set up, you can write some code. Please always in
             less than or equal to capacity ~> all trains drive
             over capacity ~> all trains are delayed
     write a scenario function that simulates a scenario with about a dozen trains and call it from the main program
-    let the trains keep track of whether they can drive or were delayed and, within the scenario funtion, print that information at the end of the simulation
+    let the trains keep track of whether they can drive or were delayed and, within the scenario function, print that information at the end of the simulation
     write an external function, which uses Univocity Parsers to parse input (trains and their schedules), triggers the simulation, and writes resulting data (drive vs delay) as CSV (this does not touch on the scenario function, which should be unchanged) and call external from main
 
 When all that’s done:
