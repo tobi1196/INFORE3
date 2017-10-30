@@ -13,6 +13,19 @@ Zur Hilfestellung des Projektes steht der Dozent zur verfügung:
 
     Nicolai Parlog
 
+## Lizenz
+
+Die Lizenzrechte sind in der Datei LICENSE.txt zu lesen. Sie beinhaltet Informationen zu Nutzungsrecht, Schutz und Übertragbarkeit des Codes zu diesem Projekt.
+
+## Sprachregeln
+
+Für das Projekt gelten festgelegte Regeln für die Sprache. Dies soll Durcheinander bei der Kommunikation miteinander und dem Code vermeiden.
+
+## Es gilt zu beachten:
+
+    Code mit all seinen Bestandteilen (Klassen, Variablennamen, Testnamen, Kommentare) auf Englisch
+    Commits beziehungsweise deren Beschreibung (sowohl beim lokalen Committen als auch Merge-Commits auf GitHub) auf Deutsch
+    GitHub: mit den verschiedenen Bestandteilen wie Kommentare, Beschreibungen von Issues und PullRequests sowie Milestones auf Deutsch
 
 ## Project Infrastructure
 
