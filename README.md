@@ -21,7 +21,7 @@ Die Lizenzrechte sind in der Datei LICENSE.txt zu lesen. Sie beinhaltet Informat
 
 Das Programm kann als .jar Datei mit Java über die Command Line folgendermaßen gestartet werden:
 
-java –jar <Pfad zum Programm>
+    java –jar <Pfad zum Programm>
 
 Die Jar Datei befindet sich im Ordner \out\artifacts\INFORE3
 
