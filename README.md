@@ -17,6 +17,14 @@ Zur Hilfestellung des Projektes steht der Dozent zur verfügung:
 
 Die Lizenzrechte sind in der Datei LICENSE.txt zu lesen. Sie beinhaltet Informationen zu Nutzungsrecht, Schutz und Übertragbarkeit des Codes zu diesem Projekt.
 
+## Ausführen des Programm
+
+Das Programm kann als .jar Datei mit Java über die Command Line folgendermaßen gestartet werden:
+
+    java –jar <Pfad zum Programm>
+
+Die Jar Datei befindet sich im Ordner \out\artifacts\INFORE3
+
 ## Sprachregeln
 
 Für das Projekt gelten festgelegte Regeln für die Sprache. Dies soll Durcheinander bei der Kommunikation miteinander und dem Code vermeiden.
