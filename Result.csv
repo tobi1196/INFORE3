@@ -1,0 +1,13 @@
+TrainID;Segment;Status
+1;1;OnTime
+2;2;Delayed
+3;3;OnTime
+4;4;OnTime
+5;5;OnTime
+6;1;OnTime
+7;2;Delayed
+8;3;OnTime
+9;4;OnTime
+10;2;Delayed
+11;1;OnTime
+12;2;Delayed
