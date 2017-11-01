@@ -2,7 +2,7 @@
 
 Dieses Projekt ist das Abschlussprojekt des Modules Informatik an der Technischen Hochschule Bingen. 
 
-Der Bearbeitungszeitraum für das Projekt ist vom 15. Oktober ab 18:00 Uhr bis zum 29. Oktober um 18:00 Uhr.
+Der Bearbeitungszeitraum für das Projekt ist vom 15. Oktober ab 18:00 Uhr bis zum 2. November um 18:00 Uhr.
 
 Die Beteiligten des Projektes sind zwei Studierende zusammen in einer Gruppe:
 
