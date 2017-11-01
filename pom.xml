@@ -53,7 +53,7 @@
                         <configuration>
                             <archive>
                                 <manifest>
-                                    <mainClass>HelloWorldKt</mainClass>
+                                    <mainClass>MainKt</mainClass>
                                 </manifest>
                             </archive>
                             <descriptorRefs>
