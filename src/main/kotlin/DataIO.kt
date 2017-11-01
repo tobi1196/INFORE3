@@ -9,7 +9,7 @@ import java.io.InputStreamReader
 
 class DataIO {
 
-    fun safeAsCSV(results:List<List<String>>){
+    fun safeAsCSV(trains:List<Train>){
 
         var file = File("Result.csv")
         var out = FileWriter(file)
@@ -21,9 +21,10 @@ class DataIO {
         var outPutList:MutableList<Array<Any>> = mutableListOf()
         outPutList.add(arrayOf("TrainID", "Segment", "Status"))
 
-        for(result:List<String> in results){
+        for(train:Train in trains){
 
-            outPutList.add(arrayOf(result[0],result[1],result[2]))
+            var status:List<String> = train.getStatus();
+            outPutList.add(arrayOf(status[0],status[1],status[2]))
 
         }
 
@@ -31,10 +32,11 @@ class DataIO {
 
     }
 
-    fun printResults(resultList:List<List<String>>){
+    fun printResults(trains:List<Train>){
 
-        for(status:List<String> in resultList){
+        for(train:Train in trains){
 
+            var status:List<String> = train.getStatus()
             System.out.println("Train:" + status[0] + " Segment: " + status[1] + " Status: " + status[2])
 
         }

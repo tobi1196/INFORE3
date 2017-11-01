@@ -9,7 +9,7 @@ class RailNetwork(segments:List<RailSegment>, trains:List<Train>){
 
         for(train:Train in trains){
 
-            var currentSegment:Int = train.getCurrentSegment(simulationStep)
+            var currentSegment:Int = train.getCurrentSegment()
             if(currentSegment > 0) {
 
                 segments[currentSegment - 1].addTrain(train) // -1 because Segment 1 in the Schedule is here Segment 0 in the Array.
@@ -20,52 +20,26 @@ class RailNetwork(segments:List<RailSegment>, trains:List<Train>){
 
         for(segment:RailSegment in segments){
 
-            var delayed = false
-            if(segment.getTrainCount() > segment.getCapacity()){
-
-                delayed = true
-
-            }
-
-            segment.setTrainsDelayed(delayed)
+            segment.setTrainsDelayed(segment.isCapacityReached())
 
         }
 
     }
 
-    fun getNetworkStatus():List<List<String>>{
+    fun getNetworkStatus():List<Train>{
 
-        var statusList:MutableList<List<String>> = mutableListOf()
-
-        for(train:Train in trains){
-
-            var trainResult:MutableList<String> = mutableListOf()
-
-            trainResult.add(train.getID().toString())
-
-            trainResult.add(train.getCurrentSegment(simulationStep).toString())
-
-            if(train.isDelayed()){
-
-                trainResult.add("Delayed")
-
-            }else{
-
-                trainResult.add("OnTime")
-
-            }
-
-            statusList.add(trainResult.toList())
-
-        }
-
-        return statusList.toList()
+       return trains
 
     }
 
     fun increaseSimulationStep(){
 
         ++simulationStep;
+        for(train:Train in trains){
+
+            train.setSimulationStep(simulationStep)
+
+        }
 
     }
 

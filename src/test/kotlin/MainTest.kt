@@ -7,7 +7,7 @@ class MainTest{
 
         var dataIO = DataIO()
 
-        var results:List<List<String>> = executeScenario(dataIO.readScheduleCSV())
+        var results:List<Train> = executeScenario(dataIO.readScheduleCSV())
 
         dataIO.printResults(results)
         dataIO.safeAsCSV(results)

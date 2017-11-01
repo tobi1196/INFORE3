@@ -33,4 +33,16 @@ class RailSegment(capacity: Int){
 
     }
 
+    fun isCapacityReached():Boolean{
+
+        if(getTrainCount() > getCapacity()){
+
+            return true
+
+        }
+
+        return false
+
+    }
+
 }
